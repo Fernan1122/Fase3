@@ -1,0 +1,175 @@
+/*font-family: 'Orbitron', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Exo 2', sans-serif;*/
+
+nav, header, .contenedor, footer{
+    max-width: 90%;
+    margin: auto;
+    border-radius: 0.4em ;
+}
+
+nav{
+    background-color: yellow;
+    border-color: black;
+    text-align: left;
+    
+}
+header{
+    background-color: white;
+    border-color: black;
+    display: flex;
+    text-align: left;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20PX;
+    text-align: justify;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 20px;
+    font-size: 30PX;
+}
+
+h2{
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 20px;
+    font-size: 35PX;
+    font-weight: 700;
+}
+h3{
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 20px;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+h4{
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 460px;
+    font-size: 22PX;
+    text-align: right;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+h5{
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 20px;
+    font-size: 20PX;
+    text-align: left;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+h6{
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 20px;
+    font-size: 22PX;
+    text-align: center;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+
+.contenedor{
+    background-color: none;
+}
+.central{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+body{
+    background-image: url("../IMG/azul-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    display: flex;
+}
+aside{
+    background-color: none;
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+/* Menus dinamicos*/
+
+.autor p{
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 20px;
+    font-size: 30PX;
+    text-align: center;
+    font-weight: 500;
+}
+
+.list li{
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 20px;
+    font-size: 20PX;
+    text-align: justify;
+    font-weight: 500;
+}
+.list1 li{
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 20px;
+    font-size: 22PX;
+    text-align: justify;
+    font-weight: 600;
+}
+.objg {
+    font-family: 'Exo 2', sans-serif;;
+    margin-left: 20px;
+    font-size: 24PX;
+    text-align: justify;
+    font-weight: 600;
+}
+
+
+
+.menu li{
+    display: inline-block; 
+}
+li a, boton{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em 1em;
+    font-family: 'Prompt', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.listadesplegable{
+    display: none;
+    background-color: yellow;
+    position: absolute;
+    
+
+}
+.listadesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+    font-weight: inherit;
+    font-size: 15px;
+    
+}
+.boton:hover .listadesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: rgba(245, 221, 0, 0.952);
+}
